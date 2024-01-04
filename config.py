@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "20574660"))
 API_HASH = os.environ.get("API_HASH", "6e21188e487b96af1ff5429dedada8ff")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002070737808"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002084779128"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "5104903730"))
@@ -28,8 +28,8 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "5104903730"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "0")
-DB_NAME = os.environ.get("DATABASE_NAME", "0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://vikas:vikas@vikas.yfezexk.mongodb.net/?retryWrites=true&w=majority")
+DB_NAME = os.environ.get("DATABASE_NAME", "file")
 
 #force sub channel id, if you want enable force sub
 FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1002066105808"))
